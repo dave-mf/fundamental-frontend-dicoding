@@ -1,0 +1,23 @@
+.container {
+    padding: 16px;
+}
+.full-width {
+    width: 100%;
+}
+  /* Width Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
